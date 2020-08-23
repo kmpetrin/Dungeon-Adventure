@@ -36,7 +36,7 @@ larger size.
 *******About the Project*******	
 				
 This game was a final project for the class Design Patterns. The original code contained only the Battle class, 3 hero classes, and 3 monster classes.
-The purpose was to refactor the code, reducing code smells, and implement various design patterns. This project contains over 80 classes and interfaces and implements 
+The purpose was to refactor the code, reducing code smells, and implement various design patterns. This project contains over 70 classes and interfaces and implements 
 various design patterns such as: strategy pattern, factory pattern, singleton, and more.
 
 
