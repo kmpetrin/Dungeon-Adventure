@@ -36,14 +36,16 @@ larger size.
 *******About the Project*******	
 				
 This game was a final project for the class Design Patterns. The original code contained only the Battle class, 3 hero classes, and 3 monster classes.
-The purpose was to refactor the code, reducing code smells, and implement various design patterns. This project contains over 70 classes and interfaces and implements 
+The purpose was to refactor the code, reduce code smells, and implement various design patterns. This project contains over 70 classes and interfaces and implements 
 various design patterns such as: strategy pattern, factory pattern, singleton, and more.
 
 
 Cheat code to print entire dungeon: type ';' when the main menu is displayed. So anytime you see "1. Move 2. Open Rucksack 3. Quit" and press ';' 
 it prints the entire dungeon. This cheat doesn't work during battle or when rucksack is open or when choosing a "move" option.
 
-*******UML*******	
+*******UML*******
+Update:As of 08/20/2020 a class has been added to handle the settings. The details of the settings can be found above in the Settings section.  The UML has not been updated to reflect this newly added class as I no longer have access to the file I used to originally create the UML.
+
 The uml broke up into 6 pages so some of the "has a" connections are broken. The pages are labeled as such and should be read in this order:
 		 1a 1b
 		 2a 2b
