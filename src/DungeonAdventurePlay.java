@@ -19,6 +19,7 @@ public class DungeonAdventurePlay {
 	private Room currentRoom;
 	private Scanner scan;
 	private char quit;
+   private int heroChoices =6;
 	
 	
     //initializes game settings
@@ -59,9 +60,9 @@ public class DungeonAdventurePlay {
     public Hero chooseHero()
     {
         HeroFactory heroFactory = new HeroFactory();
-        int choice;
         displayHeroChoices();
-        choice = scan.nextInt();
+        int choice=scan.nextInt();
+        choice =DungeonAdventure.checkIfNumValid(choice,1,heroChoices, "Must choose an int between 1 and "+heroChoices,false);
         return heroFactory.createHero(choice);
     }
     

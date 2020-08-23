@@ -92,15 +92,15 @@ public class Dungeon {
     public void generateUniqueRoomNum(int[] uniqueArray){
         int row;
         int column;
-        row = rand.nextInt(dungeonRow-1);
-        column = rand.nextInt(dungeonColumn-1);
+        row = rand.nextInt(dungeonRow);
+        column = rand.nextInt(dungeonColumn);
         uniqueArray[0]=row;
         uniqueArray[1]=column;
         for(int[] i : uniqueRoomNumbers){
             if(uniqueArray!=i) {
                 while(row==i[0] && column==i[1]){
-                    row = rand.nextInt(dungeonRow-1);
-                    column = rand.nextInt(dungeonColumn-1);
+                    row = rand.nextInt(dungeonRow);
+                    column = rand.nextInt(dungeonColumn);
                     uniqueArray[0]=row;
                     uniqueArray[1]=column;
                 }
