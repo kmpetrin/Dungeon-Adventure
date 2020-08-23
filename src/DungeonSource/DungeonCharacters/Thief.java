@@ -2,29 +2,14 @@ package DungeonSource.DungeonCharacters;
 
 import DungeonSource.AttackBehavior.SimpleAttack;
 
-
-
-
-/**
- * Title:
- * Description:
- * Copyright:    Copyright (c) 2001
- * Company:
- * @author
- * @version 1.0
+ /* @Kaylene
+  *06/02/2020
+  *Thiefs have simple attacks but high attack speeds
  */
-//it's a thief
 public class Thief extends Hero
 {
-
-    Thief()
-	{
-		super("Thief", 75, 6, .8, 20, 40, .5);
-		setAttack(new SimpleAttack());
-
-
-
+    Thief(){
+        super("Thief", 75, 6, .8, 20, 40, .5);
+        setAttack(new SimpleAttack());
     }//end constructor
-
-
 }

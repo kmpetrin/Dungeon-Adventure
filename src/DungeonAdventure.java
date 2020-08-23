@@ -13,7 +13,14 @@ private static int numMonsterChoices;
 private static int roomGenerationChance;
 private static Scanner scan;
 
-//starts the game
+/*@Kaylene
+* 06/02/2019
+*This class contains the main method to launch the game.
+* It allows the user to choose the game settings such as room size, 
+* number of obstacles and items allowed in a room. Change of a room
+* generating a monster, obstacle, or item. 
+*
+*/
 public static void main(String[] args) {
       scan = new Scanner(System.in);
       System.out.println("~Dungeon Adventure~");

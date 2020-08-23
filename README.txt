@@ -33,7 +33,10 @@ larger size.
 ------------------------------------------------------------------------------------------------------------------------------------
 							    *******About the Project*******	
 				
-This project contains over 80 classes and implements various design patterns such as: strategy pattern, factory pattern, singleton, and more.
+This game was a final project for the class Design Patterns. The original code contained only the Battle class, 3 hero classes, and 3 monster classes.
+The purpose was to refactor the code, reducing code smells, and implement various design patterns. This project contains over 80 classes and interfaces and implements 
+various design patterns such as: strategy pattern, factory pattern, singleton, and more.
+
 
 Cheat code to print entire dungeon: type ';' when the main menu is displayed. So anytime you see "1. Move 2. Open Rucksack 3. Quit" and press ';' 
 it prints the entire dungeon. This cheat doesn't work during battle or when rucksack is open or when choosing a "move" option.

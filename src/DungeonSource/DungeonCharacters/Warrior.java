@@ -1,31 +1,18 @@
 package DungeonSource.DungeonCharacters;
-
-
 import DungeonSource.AttackBehavior.SwordAttack;
 
 
-
-/**
- * Title:
- * Description:
- * Copyright:    Copyright (c) 2001
- * Company:
- * @author
- * @version 1.0
+ /* @Kaylene
+  *06/02/2020
+  *Warriors have sword attacks
  */
 
-
-
-//it's a warrior
 public class Warrior extends Hero
 {
+    Warrior(){
 
-    Warrior()
-	{
-
-		super("Warrior", 125, 4, .8, 35, 60, .2);
-		setAttack(new SwordAttack());
-
+        super("Warrior", 125, 4, .8, 35, 60, .2);
+        setAttack(new SwordAttack());
     }//end constructor
 
 }//end Hero class
